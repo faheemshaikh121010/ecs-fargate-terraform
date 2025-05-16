@@ -1,6 +1,10 @@
 Here's a  brief explanation  of the entire project you just completed:
 
 ---
+Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/f476a6c7-d372-4c86-ae6f-025ef42e570e)
+
 
   🛠️  Project Overview: Deploying a Dockerized App to AWS ECS Fargate with Terraform 
 
