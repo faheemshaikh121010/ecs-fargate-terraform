@@ -1,4 +1,4 @@
-Here's a  brief explanation  of the entire project you just completed:
+Here's a  brief explanation  of the entire project 
 
 ---
 Architecture Diagram
