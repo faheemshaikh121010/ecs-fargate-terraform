@@ -1,0 +1,10 @@
+# Authenticate Docker with ECR
+aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin <account-id>.dkr.ecr.ap-south-1.amazonaws.com
+
+# Create ECR Repo
+aws ecr create-repository --repository-name ecs-fargate-demo
+
+# Build and Push
+docker build -t ecs-fargate-demo .
+docker tag ecs-fargate-demo:latest <account-id>.dkr.ecr.ap-south-1.amazonaws.com/ecs-fargate-demo
+docker push <account-id>.dkr.ecr.ap-south-1.amazonaws.com/ecs-fargate-demo
